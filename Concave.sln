@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Concave.Contract", "Contrac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Concave.Domain", "Domain\Concave.Domain.csproj", "{BA97A53B-E95F-4D91-ACBC-D179BB330283}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concave.Common", "Concave.Common\Concave.Common.csproj", "{2CB0C903-65A7-4392-BC95-82F313409DC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{BA97A53B-E95F-4D91-ACBC-D179BB330283}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA97A53B-E95F-4D91-ACBC-D179BB330283}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA97A53B-E95F-4D91-ACBC-D179BB330283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB0C903-65A7-4392-BC95-82F313409DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB0C903-65A7-4392-BC95-82F313409DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB0C903-65A7-4392-BC95-82F313409DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB0C903-65A7-4392-BC95-82F313409DC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{DD68C560-0904-4AA9-BF15-A3ED39718F6D} = {AE6A2B8F-4ADD-4308-B695-9995C69A6435}
 		{52CD6A34-800D-4CD3-9FD2-F90D05334195} = {AE6A2B8F-4ADD-4308-B695-9995C69A6435}
 		{BA97A53B-E95F-4D91-ACBC-D179BB330283} = {AE6A2B8F-4ADD-4308-B695-9995C69A6435}
+		{2CB0C903-65A7-4392-BC95-82F313409DC3} = {E80C6467-7B35-4B18-AB4E-086287487CC5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0625D510-A598-475F-90E2-2BB68812DA9E}

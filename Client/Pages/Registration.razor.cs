@@ -7,7 +7,6 @@ namespace Concave.Client.Pages;
 #region Usings
 
 //using Concave.Shared.Models.Requests;
-using Concave.Shared.Models.Requests;
 
 using JetBrains.Annotations;
 
@@ -29,6 +28,6 @@ public partial class Registration
     /// <summary> Gets or sets the registration request. </summary>
     /// <value> The registration request. </value>
 
-    public RegistrationRequest RegistrationRequest { get; set; }
+    //public RegistrationRequest RegistrationRequest { get; set; }
     #endregion
 }
