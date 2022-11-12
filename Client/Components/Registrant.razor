@@ -1,0 +1,47 @@
+<div class="form-floating d-grid gap-3">
+    <div class="row">
+        <div class="col">
+            <div class="form-floating">
+                <input class="form-control" id="firstName"/> <label class="col-form-label" for="firstName">First Name</label>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-floating">
+                <input class="form-control" id="lastName"/> <label for="lastName">Last Name</label>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="form-floating">
+                <input class="form-control" id="badgeName"/> <label for="badgeName">Badge Name</label>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="form-floating">
+                <input class="form-control" id="email"/> <label for="email">Email Address</label>
+
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="form-floating">
+                <select class="form-select" id="age">
+                    <option value="0"></option>
+                    @for (var i = 1; i <= 150; i++)
+                    {
+                        <option value="@i">@i</option>
+                    }
+
+                    }
+                </select> <label for="age">Age</label>
+
+            </div>
+        </div>
+    </div>
+    <hr class="m-0 p-0"/>
+</div>
